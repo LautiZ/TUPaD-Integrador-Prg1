@@ -30,7 +30,7 @@ def comparar_tiempos():
 
     # Guardamos el tiempo que tarda en ejecutarse bubble sort
     bubblesort_time = end_time - start_time
-    print("Tiempo que tardo en ejecutarse bubblesort: ", bubblesort_time)
+    print(f"Tiempo que tardo en ejecutarse bubblesort: {bubblesort_time:.10f}".rstrip("0").rstrip("."), "segundos")
 
     # Medimos el tiempo que tarda en ejecutarse quicksort
     start_time = timeit.default_timer()
@@ -38,8 +38,9 @@ def comparar_tiempos():
     end_time = timeit.default_timer()
 
     # Guardamos el tiempo que tarda en ejecutarse quicksort
+    
     quicksort_time = end_time - start_time
-    print("Tiempo que tardo en ejecutarse quicksort: ", quicksort_time)
+    print(f"Tiempo que tardo en ejecutarse quicksort: {quicksort_time:.10f}".rstrip("0").rstrip("."), "segundos")
 
     # Si quicksort tarda menos que bubble sort, se establece la bandera en true y se termina el bucle
     if quicksort_time < bubblesort_time:
