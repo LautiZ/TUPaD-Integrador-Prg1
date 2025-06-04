@@ -20,8 +20,11 @@ def comparar_tiempos():
   while not qs_bbs:
     print("Cantidad de elementos en lista: ", num_list)
 
-    # Generamos una lista de numeros aleatorios con la cantidad de elementos establecidos
-    random_list = generate_random_list(num_list)
+    if num_list == 10:
+      # Generamos una lista de numeros aleatorios con la cantidad de elementos establecidos
+      random_list = generate_random_list(num_list)
+    elif num_list > 10:
+      random_list += generate_random_list(10)
 
     # Medimos el tiempo que tarda en ejecutarse bubble sort
     start_time = timeit.default_timer()
@@ -49,7 +52,6 @@ def comparar_tiempos():
       print("=" * 70)
       return num_list
     else:
-      
       # Si bubble sort tarda menos que quicksort, se incrementa el numero de elementos en 10 y se vuelve a ejecutar el bucle
       print(f"Bubble sort sigue siendo superior con {num_list} elementos en la lista")
       num_list += 10
