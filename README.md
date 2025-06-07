@@ -1,11 +1,12 @@
 # Trabajo integrador programacion 1
-
+Comision 9
 Integrantes:
 
 - Lautaro Zullo
 - Ignacio Salazar
 
 ## Tema: Algoritmos de ordenamiento
+Link a nuestro video explicativo: https://youtu.be/22iWswgVnlU
 
 Nuestro codigo esta enfocado en sacar el promedio de elementos necesarios en una lista para que quicksort supere en tiempo de procesamiento a bubblesort, es decir, tarde menos tiempo en completar el ordenamiento. Estas pruebas se ejecutan un total de 100 veces con numeros aleatorios en cada una de las listas creadas.
 
