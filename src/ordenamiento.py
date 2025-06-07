@@ -1,8 +1,8 @@
 import random
 import timeit
 
-from bubble_sort import bubble_sort
-from quicksort import quicksort
+from modules.bubble_sort import bubble_sort
+from modules.quicksort import quicksort
 
 # Funcion que toma un numero entero y devuelve una lista de numeros aleatorios de tamaño n
 def generate_random_list(size):
