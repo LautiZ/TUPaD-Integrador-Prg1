@@ -4,6 +4,7 @@ import random
 from modules.binary_search import busqueda_binaria
 from modules.lineal_search import busqueda_lineal
 from modules.random_list import generate_random_list
+from modules.quicksort import quicksort
 
 
 
@@ -32,6 +33,9 @@ def comparar_tiempos():
     elif num_list > 10:
       # Se le suman 10 elementos random a la lista
       random_list += generate_random_list(10)
+
+    # Ordenamos la lista
+    random_list = quicksort(random_list)
 
     # Medimos el tiempo que tarda en ejecutarse la busqueda lineal
     start_time = timeit.default_timer()
