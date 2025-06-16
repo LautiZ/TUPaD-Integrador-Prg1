@@ -1,8 +1,6 @@
 import ordenamiento as ordenamiento
 import busqueda as busqueda
 
-from modules.quicksort import quicksort
-
 if __name__ == "__main__":
     ordenamiento_nro = 0
     busqueda_nro = 0

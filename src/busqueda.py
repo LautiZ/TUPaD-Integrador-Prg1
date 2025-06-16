@@ -1,10 +1,10 @@
 import timeit
 import random
 
-from modules.binary_search import busqueda_binaria
-from modules.lineal_search import busqueda_lineal
+from modules.busqueda.binary_search import busqueda_binaria
+from modules.busqueda.lineal_search import busqueda_lineal
 from modules.random_list import generate_random_list
-from modules.quicksort import quicksort
+from modules.ordenamiento.quicksort import quicksort
 
 
 

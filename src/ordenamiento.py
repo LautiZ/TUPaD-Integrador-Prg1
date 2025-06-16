@@ -1,7 +1,7 @@
 import timeit
 
-from modules.bubble_sort import bubble_sort
-from modules.quicksort import quicksort
+from modules.ordenamiento.bubble_sort import bubble_sort
+from modules.ordenamiento.quicksort import quicksort
 from modules.random_list import generate_random_list
 
 # Funcion principal que ejecuta el programa
