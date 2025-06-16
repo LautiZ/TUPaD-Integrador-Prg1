@@ -1,12 +1,8 @@
-import random
 import timeit
 
 from modules.bubble_sort import bubble_sort
 from modules.quicksort import quicksort
-
-# Funcion que toma un numero entero y devuelve una lista de numeros aleatorios de tamaño n
-def generate_random_list(size):
-  return [random.randint(1, 1000) for _ in range(size)]
+from modules.random_list import generate_random_list
 
 # Funcion principal que ejecuta el programa
 def comparar_tiempos():
@@ -24,6 +20,7 @@ def comparar_tiempos():
       # Generamos una lista de numeros aleatorios con la cantidad de elementos establecidos
       random_list = generate_random_list(num_list)
     elif num_list > 10:
+      # Se le suman 10 elementos random a la lista
       random_list += generate_random_list(10)
 
     # Medimos el tiempo que tarda en ejecutarse bubble sort

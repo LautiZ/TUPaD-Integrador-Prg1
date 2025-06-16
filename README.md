@@ -1,4 +1,5 @@
 # Trabajo integrador programacion 1
+
 Comision 9
 Integrantes:
 
@@ -6,6 +7,7 @@ Integrantes:
 - Ignacio Salazar
 
 ## Tema: Algoritmos de ordenamiento
+
 Link a nuestro video explicativo: https://youtu.be/22iWswgVnlU
 
 Nuestro codigo esta enfocado en sacar el promedio de elementos necesarios en una lista para que quicksort supere en tiempo de procesamiento a bubblesort, es decir, tarde menos tiempo en completar el ordenamiento. Estas pruebas se ejecutan un total de 100 veces con numeros aleatorios en cada una de las listas creadas.
@@ -28,8 +30,20 @@ Ingresar a la carpeta del programa:
 
 ## Ejecucion
 
-Para usar este proyecto debe ejecutar este comando por consola:
+Para usar este proyecto debe ejecutar este comando por consola, se van a mostrar los promedios de ordenamiento y de busqueda binaria:
 
 ```bash
-  python ordenamiento.py
+  python src/main.py
+```
+
+En caso de querer ver solo los de ordenamiento ejecutar:
+
+```bash
+  python src/ordenamiento.py
+```
+
+En caso de querer ver solo los de busqueda ejecutar:
+
+```bash
+  python src/busqueda.py
 ```
