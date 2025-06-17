@@ -8,7 +8,7 @@ Integrantes:
 
 ## Tema: Algoritmos de ordenamiento
 
-Link a nuestro video explicativo: [https://youtu.be/22iWswgVnlU](https://youtu.be/EavVOxXuWdI)
+Link a nuestro video explicativo: [Tp Integrador Algoritmos de ordenamiento | Programacion 1 | Lautaro Zullo Ignacio Salazar.](https://youtu.be/EavVOxXuWdI)
 
 Nuestro codigo esta enfocado en sacar el promedio de elementos necesarios en una lista para que quicksort supere en tiempo de procesamiento a bubblesort, es decir, tarde menos tiempo en completar el ordenamiento. Estas pruebas se ejecutan un total de 100 veces con numeros aleatorios en cada una de las listas creadas.
 
